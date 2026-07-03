@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — SYNCIPR</title>
+<meta name="description" content="Get in touch with SYNCIPR to start a patent or design inquiry.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav-row">
+    <a href="index.html" class="logo">SYNCIPR <span class="mark">IP &amp; PATENT CONSULTING</span></a>
+    <nav class="links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="patent.html">Patent</a>
+      <a href="design.html">Design</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <a href="contact.html" class="btn primary">Start an inquiry</a>
+    <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-drawer">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="patent.html">Patent</a>
+    <a href="design.html">Design</a>
+    <a href="contact.html" class="active">Contact</a>
+  </div>
+</header>
+
+<main>
+  <section class="tight">
+    <div class="wrap">
+      <div class="eyebrow">Fig. 6 — Start an Inquiry</div>
+      <h1 style="max-width:16ch;">Tell us what you've built.</h1>
+      <p class="lede" style="margin-top:20px;">A short description of your invention or design is enough to start — we'll follow up with the right next questions.</p>
+    </div>
+  </section>
+
+  <section class="tight">
+    <div class="wrap contact-grid">
+      <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="hidden" name="_subject" value="New inquiry from SYNCIPR website">
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-field">
+          <label for="message">What are you working on?</label>
+          <textarea id="message" name="message" required placeholder="A sentence or two about your invention or design is a good starting point."></textarea>
+        </div>
+        <button type="submit" class="btn primary">Send inquiry</button>
+      </form>
+
+      <div class="contact-info">
+        <div class="item">
+          <span class="field-label">Email</span><br>
+          <a href="mailto:syncipr@gmail.com" class="big">syncipr@gmail.com</a>
+        </div>
+        <div class="item">
+          <span class="field-label">Who we work with</span>
+          <p style="margin-top:8px;">Startups and individual inventors seeking patent or design protection in India, with support across US, EP, WO, and CN prior art searches where relevant.</p>
+        </div>
+        <div class="item">
+          <span class="field-label">What to expect</span>
+          <p style="margin-top:8px;">We typically respond within one to two business days with either a clarifying question or a proposed next step.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="footer-row">
+      <div class="footer-brand">
+        <div class="logo">SYNCIPR</div>
+        <p>Innovate, Patent, Grow. Patent and design consulting for startups and individual inventors.</p>
+      </div>
+      <div class="footer-links">
+        <div class="col">
+          <span class="field-label">Site</span>
+          <a href="services.html">Services</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="col">
+          <span class="field-label">Learn</span>
+          <a href="patent.html">Patent basics</a>
+          <a href="design.html">Design basics</a>
+        </div>
+        <div class="col">
+          <span class="field-label">Contact</span>
+          <a href="mailto:syncipr@gmail.com">syncipr@gmail.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SYNCIPR. All rights reserved.</span>
+      <span>Information on this site is general in nature and not legal advice.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
